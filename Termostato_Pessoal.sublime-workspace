@@ -1,0 +1,710 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"OU",
+				"OUT_PIN"
+			],
+			[
+				"tur",
+				"turnOn"
+			],
+			[
+				"max",
+				"max_temperature"
+			],
+			[
+				"prin",
+				"printBoard"
+			],
+			[
+				"col",
+				"column_value"
+			],
+			[
+				"co",
+				"col_number"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"row",
+				"row_number"
+			],
+			[
+				"ce",
+				"cells"
+			],
+			[
+				"nex",
+				"nextCell"
+			],
+			[
+				"K",
+				"K_w"
+			],
+			[
+				"tau",
+				"tau_e"
+			],
+			[
+				"H_",
+				"H_w"
+			],
+			[
+				"tf",
+				"tf_corrente_ma"
+			],
+			[
+				"ta",
+				"tau_m"
+			],
+			[
+				"H",
+				"H_c"
+			],
+			[
+				"rai",
+				"raiz_1"
+			],
+			[
+				"I_a",
+				"I_a_max"
+			],
+			[
+				"T",
+				"T_L"
+			],
+			[
+				"V",
+				"V_cm"
+			],
+			[
+				"I",
+				"I_f"
+			],
+			[
+				"R",
+				"R_a"
+			],
+			[
+				"V_",
+				"V_t_rated"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Termostato_Pessoal.ino",
+			"settings":
+			{
+				"buffer_size": 579,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ambient.h",
+			"settings":
+			{
+				"buffer_size": 374,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ambient.cpp",
+			"settings":
+			{
+				"buffer_size": 912,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#ifndef __HEATER_CPP__\n#define __HEATER_CPP__\n\n#include <Arduino.h>\n#include \"heater.h\"\n\n\nHeater::Heater(unsigned int out_pin) {\n\tpin = out_pin;\n}\n\nvoid Heater::turnOn(void) {\n\tdigitalWrite(pin, HIGH);\n}\n\nvoid Heater::turnOff(void) {\n\tdigitalWrite(pin, LOW);\n}\n\n#endif\n",
+			"file": "heater.cpp",
+			"file_size": 296,
+			"file_write_time": 132662652247205070,
+			"settings":
+			{
+				"buffer_size": 269,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"synta",
+				"Set Syntax: C++"
+			],
+			[
+				"syn",
+				"Set Syntax: C++"
+			],
+			[
+				"set",
+				"Set Syntax: C++"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"qyu",
+				"Git: Quick Commit (repo, only already added files)"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"cur",
+				"Git: Add Current File"
+			],
+			[
+				"open",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo, only already added files)"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pdf",
+				"Build With: LaTeX - PdfLaTeX"
+			],
+			[
+				"shell p",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"clo",
+				"Terminus: Close"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"bui",
+				"Build With: LaTeX"
+			],
+			[
+				"buil",
+				"Build With: LaTeX"
+			],
+			[
+				"latex",
+				"Build With: LaTeX"
+			],
+			[
+				"lat",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"close",
+				"Terminus: Close All"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"terminus op",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"clos",
+				"Terminus: Close"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"terminus",
+				"Terminus: Close"
+			],
+			[
+				"term",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"m",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"shell ",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"term vi",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"ter vi",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"termi vi",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"termi cl",
+				"Terminus: Close"
+			],
+			[
+				"term clo",
+				"Terminus: Close"
+			],
+			[
+				"ter clos",
+				"Terminus: Close"
+			],
+			[
+				"terminus vi",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminus cl",
+				"Terminus: Close"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminus clo",
+				"Terminus: Close"
+			],
+			[
+				"terminus ope",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminus ",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"previ",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"githu",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"markd",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Lulu/Documents/Projetos/Termostato_Pessoal"
+	],
+	"file_history":
+	[
+		"/C/Users/Lulu/Documents/Projetos/Termostato_Pessoal/Termostato_Pessoal",
+		"/C/Users/Usuario/Documents/Termostato_Pessoal/Ambient/ambient.h",
+		"/C/Users/Usuario/Documents/Termostato_Pessoal/ambient.cpp",
+		"/C/Users/Usuario/Documents/Termostato_Pessoal/ambient.h",
+		"/C/Users/Usuario/Documents/Termostato_Pessoal/main.ino",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/Filipe_TCC/Desenvolvimento_Latex/Main.tex",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/Filipe_TCC/.gitignore",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/Filipe_TCC/Desenvolvimento_Latex/Main.log",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/LaTeX/Template TCC - UFSC Joinville/Main.tex",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/LaTeX/SimpleDocument/SimpleDocument.tex",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/Filipe_TCC/abntex2-modelo-trabalho-academico.tex",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/Filipe_TCC/README.md",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/Notas.md",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/Primeira parte/Tcc_Parte_1.md",
+		"/C/Users/Usuario/Documents/UFSC/2021.1/Trabalho de Conclusão de Curso/LaTeX/Template TCC - UFSC Joinville/Main.pdf",
+		"/C/Users/Lulu/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/Lulu/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/Lulu/Documents/Arduino/ARR5_Robotics-feature-pv/InterfaceGrafica/interface_robo.py",
+		"/C/Users/Lulu/Documents/Arduino/libraries/ARR5_Angle_Conversions/ARR5_Angle_Conversions.h",
+		"/C/Users/Lulu/Documents/Arduino/libraries/ARR5_Angle_Conversions/ARR5_Angle_Conversions.cpp",
+		"/C/Users/Lulu/Documents/Arduino/libraries/ARR5_Data.h",
+		"/C/Users/Lulu/Documents/Arduino/libraries/ARR5_Angle_Conversions/ARR5_Joint_Limits.h",
+		"/C/Users/Lulu/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Lulu/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/C/Users/Usuario/Documents/UFSC/2020.1/Acionamentos eletricos/Acionamentos_Workspace/Exercicio_4/relatorio.md",
+		"/C/Users/Lulu/Desktop/timer.html",
+		"/C/Users/Usuario/Documents/UFSC/2020.1/Acionamentos elétricos/Acionamentos_Workspace/Exercicio_2/relatorio.md",
+		"/C/Users/Usuario/Documents/UFSC/2020.1/Acionamentos elétricos/Acionamentos_Workspace/Exercicio_3/teste.m",
+		"/C/Users/Usuario/Documents/UFSC/2020.1/Acionamentos elétricos/Acionamentos_Workspace/Exercicio_1/relatorio.md",
+		"/C/Users/Lulu/AppData/Roaming/Sublime Text 3/Packages/CMD/CMD.py",
+		"/C/Users/Usuario/Documents/UFSC/2020.1/Acionamentos elétricos/Acionamentos_Workspace/Exercicio_1/Relatorio.pdf"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"window"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Termostato_Pessoal.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ambient.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "ambient.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "heater.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 161.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 295.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 301.0
+	},
+	"output.Terminus 4":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 132.0
+	},
+	"output.latextools":
+	{
+		"height": 211.0
+	},
+	"pinned_build_system": "",
+	"project": "Termostato_Pessoal",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
